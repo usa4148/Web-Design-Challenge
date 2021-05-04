@@ -19,10 +19,10 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <!-- <body style="background-color:lightgrey;"></body> -->
-  <body>
+  <body style="background-color:white;">
     <!-- Figured out the float-left text around the image with this: https://stackoverflow.com/questions/49225505/how-to-make-text-wrap-around-image-with-bootstrap-4-without-float-->
-    <div class="container-fluid pt-3 bg-white">
-	<div class="row">
+    <div class="container-fluid pb-5 pt-0 pl-3 pr-2" style="background-color:lightgray;">
+	<div class="row" style="background-color:white;">
 		<div class="col-md-8">
 			<a href="../index.html" type="button" class="btn btn-info btn-lg" style="background-color:#66ccc3;">Latitude</a>
 		</div>
@@ -49,68 +49,58 @@
 		   </nav>
         <!-- End Hamburger Handler-->		   
 	</div>
-	<div class="row">
+	<div class="row pl-3 pr-3" style="background-color:lightgray;">
 		<div class="col-md-12">
 		</div>
 	</div>
-	<h2 class="text-info pt-4 bg-light">Comparison: Latitude vs X</h2>
-	<hr/>
-	<p>Click any plot to get an in-depth analysis</p>
-	<div class="row pt-4 pb-0 bg-light text-dark">
-        
-		<div class="col-lg-6">			
+	<div class="container-fluid" style="background-color:lightgray;"></div>
+	<div class="row"><div class="col-md-1 pt-3 pb-3"></div></div>
+	<div class="container-fluid" style="background-color:white;">
+	<div class="row">
+	<div class="col-md-1" ></div>
+	   <div class="col-md-6 pt-3" style="background-color:white;">
+	   <h2 class="text-info pt-4">Comparison: Latitude vs X</h2>
+	   <hr/>
+	   <p>Click any plot to get an in-depth analysis</p>
+	</div>
+    </div>
+	<div class="row pt-2 pb-0" style="background-color:white;">   
+		<div class="col-lg-5 pl-5">			
 			<div class="image-wrapper">
-				<h3 class="text-info text-center bg-light pr-5">vs. Max Temperature</h3>
+				<h3 class="text-info text-center">vs. Max Temperature</h3>
                   <a href="visualizations1.html">
 				    <img style="width:400px"src="Resources/assets/images/Fig1.png"/>
 			      </a>
 			</div>
 		</div>
-        <div class="col-lg-6">
+        <div class="col-lg-5 pl-5">
 			<div class="image-wrapper">
-			    <h3 class="text-info text-center bg-light pr-5">vs. Humidity</h3>
+			    <h3 class="text-info text-center">vs. Humidity</h3>
 				  <a href="visualizations1.html">
 				    <img style="width:400px" src="Resources/assets/images/Fig2.png"/>
 				  </a>
 			</div>
 		</div>
-		<div class="col-lg-6">
+		<div class="col-lg-5 pl-5">
 			<div class="image-wrapper">
-			    <h3 class="text-info text-center bg-light pr-5">vs. Cloudiness</h3>
+			    <h3 class="text-info text-center">vs. Cloudiness</h3>
 				  <a href="visualizations1.html">
 				    <img style="width:400px" src="Resources/assets/images/Fig3.png"/>
 			      </a>			
 			</div>
 		</div>
-		<div class="col-lg-6">
+		<div class="col-lg-5 pl-5">
 			<div class="image-wrapper">
-				<h3 class="text-info text-center bg-light pr-5">vs. Wind Speed</h3>
+				<h3 class="text-info text-center">vs. Wind Speed</h3>
 				  <a href="visualizations1.html">
 				    <img style="width:400px" src="Resources/assets/images/Fig4.png"/>
 				  </a>
 			</div>
 		</div>
 	</div>
-
-	<!-- <div class="row pl-3 pb-0 bg-light text-dark">
-		<div class="col-md-1.5">
-			<img class="bg-light" src="Resources/assets/images/Fig1.png" style="width:200px" style="height:200px" >
-		</div>
-		<div class="col-md-3">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-		</div>
-		<div class="col-md-4">
-		</div>
 	</div>
-	<div class="row pt-0">
-		<div class="col-md-4">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
-		</div>
-		<div class="col-md-4">
-		</div>
-	</div> -->
-</div>
-
+	</div>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>

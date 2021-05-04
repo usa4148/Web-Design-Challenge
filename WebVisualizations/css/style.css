@@ -6,8 +6,24 @@
 <!-- style.css ------------------------------------------- -->
 <!-- ----------------------------------------------------- -->
 
+$enable-gradients: true;
+
+body {
+  background-color: tan;
+}
+
 body {
   margin: 20px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 

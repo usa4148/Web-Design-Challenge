@@ -19,10 +19,10 @@
     <link href="WebVisualizations/css/style.css" rel="stylesheet">
   </head>
   <!-- <body style="background-color:lightgrey;"></body> -->
-  <body>
+  <body style="background-color:white;">
     <!-- Figured out the float-left text around the image with this: https://stackoverflow.com/questions/49225505/how-to-make-text-wrap-around-image-with-bootstrap-4-without-float-->
-    <div class="container-fluid pt-3 bg-white">
-	<div class="row">
+    <div class="container-fluid pb-5 pt-0 pl-2 pr-2" style="background-color:lightgray;" >
+	<div class="row" style="background-color:white;">
 		<div class="col-md-8">
 			<a href="index.html" type="button" class="btn btn-info btn-lg" style="background-color:#66ccc3;">Latitude</a>
 		</div>
@@ -53,8 +53,9 @@
 		<div class="col-md-12">			                   
 		</div>
 	</div>
-	<div class="row pt-4 pl-3 pb-0 bg-light text-dark">
-		<div class="col-md-5">
+	<div class="row pt-4 pl-5 pb-0 bg-light text-dark">
+		<div class="col-md-1"></div>
+		<div class="col-md-5 pt-3" style="background-color:white;">
 			<!-- <div class="bg-light pull-left"><img style="width:200px" src="Resources/assets/images/Fig1.png"/></div> -->
 			<h2 class="text-info bg-light">Summary: Latitude vs. X</h2>
 			<hr/>
@@ -65,7 +66,8 @@
 		    
 			<p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.  Factors we looked at included: temperature, cloudiness, wind speed, humidity. This siet provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
 		</div>
-		<div class="col-md-5">
+		<div class="col-md-1" style="background-color:lightgray"></div>
+		<div class="col-md-4 pt-3 pb-0" style="background-color:white;">
 			<h2 class="text-info bg-light">Visualizations</h2>
 			<hr/>
 			<div class="image-wrapper pr-3">
