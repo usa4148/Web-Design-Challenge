@@ -24,8 +24,8 @@
   </head>
   <!-- <body style="background-color:lightgrey;"></body> -->
   <body>
-
-    <div class="container-fluid pt-3">
+    <!-- Figured out the float-left text around the image with this: https://stackoverflow.com/questions/49225505/how-to-make-text-wrap-around-image-with-bootstrap-4-without-float-->
+    <div class="container-fluid pt-3 bg-white">
 	<div class="row">
 		<div class="col-md-12">
 			<button  type="button" class="btn btn-info btn-lg" style="background-color:#66ccc3;">Latitude</button>
@@ -38,28 +38,42 @@
 	</div>
 
 	<div class="row p-2 pt-4 mb-2 bg-light text-dark">
-		<div class="col-md-8">
-			<h2 class="text-info" class="bg-light">Summary: Latitude vs. X                        </h2>
+		<div class="col-md-5">
+			<h2 class="text-info bg-light">Summary: Latitude vs. X</h2>
 		</div>
 		<div class="col-md-4">
+			<h2 class="text-info bg-light">Visualizations</h2>
 		</div>
 	</div>
 
 	<div class="row pb-3">
-		<div class="pl-4 col-md-4">
+		<div class="pl-4 col-md-5">
+			<hr/>
+		</div>
+		<div class="pl-4 col-md-3">
 			<hr/>
 		</div>
 	</div>
 
 	<div class="row pl-3 pb-0 bg-light text-dark">
-		<div class="col-md-4">
+		<div class="col-md-5">
 			<!-- <div class="bg-light pull-left"><img style="width:200px" src="Resources/assets/images/Fig1.png"/></div> -->
 			<div class="image-wrapper float-left pr-3">
 			   <img style="width:180px" src="Resources/assets/images/Fig1.png"/>
 		    </div>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et sed do eiusmod tempor dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+		    
+			<p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.  Factors we looked at included: temperature, cloudiness, wind speed, humidity. This siet provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
 		</div>
 		<div class="col-md-4">
+			<div class="image-wrapper float-left pr-3">
+				<img style="width:180px" src="Resources/assets/images/Fig1.png"/>
+				<img style="width:180px" src="Resources/assets/images/Fig2.png"/>
+			 </div>
+			 <div class="image-wrapper float-left pr-3">
+				<img style="width:180px" src="Resources/assets/images/Fig3.png"/>
+				<img style="width:180px" src="Resources/assets/images/Fig4.png"/>
+			 </div>
 		</div>
 	</div>
 
