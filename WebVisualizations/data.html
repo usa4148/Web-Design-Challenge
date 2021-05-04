@@ -22,17 +22,28 @@
         <div class="col-md-8">
           <button href="index.html" type="button" class="btn btn-info btn-lg" style="background-color:#66ccc3;">Latitude</button>
         </div>
-        <div class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots</a>
-          <div class="dropdown-menu">
-            <a href="visualizations1.html" class="dropdown-item">Max Temperature</a>
-            <a href="visualizations2.html" class="dropdown-item">Humidity</a>
-            <a href="visualizations3.html" class="dropdown-item">Cloudiness</a>
-            <a href="visualizations4.html" class="dropdown-item">Wind Speed</a>
-          </div>
-        </div>	
-        <a class="pl-4" href="comparisons.html">Comparison</a>
-        <a class="pl-4" href="table.html">Data</a>
+        <!-- Begin Hamburger Handler for small devices-->
+        <nav class="navbar navbar-toggleable-sm">
+            <button class="navbar-toggler hidden-md-up " type="button" data-toggle="collapse" data-target="#collapseElement">
+               &#9776
+            </button>
+            <div id="collapseElement" class="collapse navbar-collapse" >
+             <div class="nav navbar-nav navbar-toggleable-xs">
+               <div class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots</a>
+                 <div class="dropdown-menu">
+                   <a href="visualizations1.html" class="dropdown-item">Max Temperature</a>
+                   <a href="visualizations2.html" class="dropdown-item">Humidity</a>
+                   <a href="visualizations3.html" class="dropdown-item">Cloudiness</a>
+                   <a href="visualizations4.html" class="dropdown-item">Wind Speed</a>
+                 </div>
+               </div>	
+               <a class="navbar-item pl-3" href="comparisons.html">Comparison</a>
+               <a class="navbar-item pl-3" href="data.html">Data</a>
+             </div>
+            </div>
+           </nav>
+        <!-- End Hamburger Handler-->
       </div>
       <div class="row">
         <div class="col-md-12">                           
