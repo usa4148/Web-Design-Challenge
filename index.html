@@ -1,0 +1,74 @@
+<!-- ----------------------------------------------------- -->
+<!-- ----------------------------------------------------- -->
+<!-- Dan C. ---------------------------------------------- -->
+<!-- Web-Design-Challenge -------------------------------- -->
+<!-- DS & V BC, 5/3/2021 --------------------------------- -->
+<!-- index.html ------------------------------------------ -->
+<!-- ----------------------------------------------------- -->
+<!-- ----------------------------------------------------- -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4, from LayoutIt!</title>
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+    <link href="WebVisualizations/css/bootstrap.min.css" rel="stylesheet">
+    <link href="WebVisualizations/css/style.css" rel="stylesheet">
+  </head>
+  <!-- <body style="background-color:lightgrey;"></body> -->
+  <body>
+    <!-- Figured out the float-left text around the image with this: https://stackoverflow.com/questions/49225505/how-to-make-text-wrap-around-image-with-bootstrap-4-without-float-->
+    <div class="container-fluid pt-3 bg-white">
+	<div class="row">
+		<div class="col-md-7">
+			<button href="index.html" type="button" class="btn btn-info btn-lg" style="background-color:#66ccc3;">Latitude</button>
+		</div>
+		<div class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots</a>
+			<div class="dropdown-menu">
+				<a href="WebVisualizations/visualizations1.html" class="dropdown-item">Max Temperature</a>
+				<a href="WebVisualizations/visualizations2.html" class="dropdown-item">Humidity</a>
+				<a href="WebVisualizations/visualizations3.html" class="dropdown-item">Cloudiness</a>
+				<a href="WebVisualizations/visualizations4.html" class="dropdown-item">Wind Speed</a>
+			</div>
+		</div>	
+		<a class="pl-4" href="WebVisualizations/comparisons.html">Comparison</a>
+		<a class="pl-4" href="WebVisualizations/data.html">Data</a>
+	</div>
+	<div class="row">
+		<div class="col-md-12">			                   
+		</div>
+	</div>
+	<div class="row pt-4 pl-3 pb-0 bg-light text-dark">
+		<div class="col-md-5">
+			<!-- <div class="bg-light pull-left"><img style="width:200px" src="Resources/assets/images/Fig1.png"/></div> -->
+			<h2 class="text-info bg-light">Summary: Latitude vs. X</h2>
+			<hr/>
+			<div class="image-wrapper float-left pr-3">
+			   <img style="width:180px" src="WebVisualizations/Resources/assets/images/Fig1.png"/>
+		    </div>
+	        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+		    
+			<p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.  Factors we looked at included: temperature, cloudiness, wind speed, humidity. This siet provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+		</div>
+		<div class="col-md-5">
+			<h2 class="text-info bg-light">Visualizations</h2>
+			<hr/>
+			<div class="image-wrapper pr-3">
+				<img style="width:150px" src="WebVisualizations/Resources/assets/images/Fig1.png"/>
+				<img style="width:150px" src="WebVisualizations/Resources/assets/images/Fig2.png"/>
+			 <!-- </div>
+			 <div class="image-wrapper float-left pr-3"> -->
+				<img style="width:150px" src="WebVisualizations/Resources/assets/images/Fig3.png"/>
+				<img style="width:150px" src="WebVisualizations/Resources/assets/images/Fig4.png"/>
+			 </div>
+		</div>
+	</div>
+    <script src="WebVisualizations/js/jquery.min.js"></script>
+    <script src="WebVisualizations/js/bootstrap.min.js"></script>
+    <script src="WebVisualizations/js/scripts.js"></script>
+  </body>
+</html>
