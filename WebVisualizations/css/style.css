@@ -3,7 +3,7 @@
 <!-- Dan C. ---------------------------------------------- -->
 <!-- Web-Design-Challenge -------------------------------- -->
 <!-- DS & V BC, 5/3/2021 --------------------------------- -->
-<!-- ----------------------------------------------------- -->
+<!-- style.css ------------------------------------------- -->
 <!-- ----------------------------------------------------- -->
 
 body {
@@ -16,6 +16,9 @@ body {
 }
 
 h1 {color:#66ccc3;}
+h2 {color:#79d2cb;}
+h3 {color:#66ccc3;}
+h4 {color:#66ccc3;}
 p {color:slategrey;}
 
 h1 { font-family: Georgia; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Georgia; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Georgia, Times, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Georgia; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 18.5714px; }
@@ -23,7 +26,7 @@ h1 { font-family: Georgia; font-size: 24px; font-style: normal; font-variant: no
 h2 { font-family: Georgia; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Georgia; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Georgia, Times, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Georgia, Times, "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 
 .class { 
-	font-family: Georgia,serif; 
+	font-family: Georgia Full Stack,serif, bold; 
 }
 
 .btn {
